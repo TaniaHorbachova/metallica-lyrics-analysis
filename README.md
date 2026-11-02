@@ -2,7 +2,7 @@
 
 What does Metallica sing about? This project turns the lyrics of 141 songs into a word-frequency dataset, groups the words into 15 themes, and shows the results in an interactive Tableau dashboard.
 
-![Dashboard preview](images/dashboard.png)
+![Dashboard preview](dashboard.png)
 
 **Live dashboard:** [Tableau Public](https://public.tableau.com/app/profile/tania.horbachova/viz/ThewordsofMetallica/Dashboard1?publish=yes)
 
@@ -50,7 +50,7 @@ Frequency counts every mention, including repeated lines in choruses. A word fro
 
 ## Output
 
-`data/metallica_words.xlsx` has one row for every word and song:
+`metallica_words.xlsx` has one row for every word and song:
 
 | Column | Description |
 |---|---|
@@ -68,7 +68,7 @@ pip install pandas spacy openpyxl kagglehub
 python -m spacy download en_core_web_sm
 ```
 
-Open `notebook/metallica_lyrics_analysis.ipynb` and run the cells in order. The notebook downloads the dataset by itself and writes the final Excel file.
+Open `metallica_lyrics_analysis.ipynb` and run the cells in order. The notebook downloads the dataset by itself and writes the final Excel file.
 
 ## Data source and notes
 
