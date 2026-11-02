@@ -2,7 +2,7 @@
 
 What does Metallica sing about? This project turns the lyrics of 141 songs into a word-frequency dataset, groups the words into 15 themes, and shows the results in an interactive Tableau dashboard.
 
-![Dashboard preview](D:/DATAS/0.Tableau/HW5/Word Cloud/Metallica/dashboard.png)
+![Dashboard preview](images/dashboard.png)
 
 **Live dashboard:** [Tableau Public](https://public.tableau.com/app/profile/tania.horbachova/viz/ThewordsofMetallica/Dashboard1?publish=yes)
 
